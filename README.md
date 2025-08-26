@@ -1,4 +1,10 @@
-# [ECAI 2025] WDFusion: Multi-Modal Image Fusion via Wavelet-Decoupled Inter-Modal Interaction Learning
-The source code will be made available upon the publication of the paper.
-## Abstract
-The purpose of multi-modal image fusion is to integrate the advantages of different modal images to obtain fused images that satisfy human or machine perception tasks. However, most methods rely on hard fusion rules, which tend to perform poorly in the face of new data, generalize poorly, and fail to learn the needed more general and robust feature representations. Therefore, we designed a two-stage multi-modal image fusion method based on wavelet transform decoupled cross-modal translation and contrastive regularization. Specifically, in the first stage, different modalities are decoupled into high-frequency and low-frequency parts by wavelet transform, respectively, and the enhanced features are obtained by the corresponding enhancement blocks, and then their low-frequency parts are exchanged to obtain the corresponding pseudo-modal images. Then the positive and negative samples are constructed, and the cross-modal translation constraints are carried out using the idea of contrastive learning to realize the inter-modal interactive learning. In the second stage, the wavelet decoupled high and low frequency features of different modal images are modulated and fused respectively. Through extensive experimental validation, our method achieves state-of-the-art fusion performance with strong generalization on multiple datasets, and achieves state-of-the-art performance on downstream tasks including object detection and semantic segmentation. The code is available at https://github.com/Song-YS/WDFusion.
+#[ECAI 2025] WDFusion: 多模态图像融合通过小波解耦跨模态交互学习 
+论文发表后，将提供源代码。
+## 摘要
+多模态图像融合的目的是整合不同模态图像的优势，以获得满足人类或机器感知任务的融合图像。然而，大多数方法依赖于硬融合规则，在面对新数据时表现不佳，泛化能力差，并且无法学习所需的更一般和更鲁棒的特征表示。因此，我们设计了一种基于小波变换解耦跨模态翻译和对比学习的两阶段多模态图像融合方法。正则化。具体来说，在第一阶段，通过小波变换将不同的模态分别解耦为高频部分和低频部分，然后通过相应的增强块获得增强特征，接着交换它们的低频部分以获得相应的伪模态图像。然后构建正负样本，并利用对比学习的思想进行跨模态翻译约束，以实现多模态交互学习。在第二阶段，对不同模态图像的波let分解高频和低频特征分别进行调制和融合。通过广泛的实验验证，我们的方法在多个数据集上实现了强大的泛化能力，并在包括物体检测和语义分割在内的下游任务中达到了最先进的融合性能。代码可在https://github.com/Song-YS/WDFusion获取。
+
+<img src="image//I.png" width="90%" align=center />
+
+<img src="image//IVF1.png" width="90%" align=center />
+
+<img src="image//IVF1.png" width="90%" align=center />
