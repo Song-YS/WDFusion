@@ -2,9 +2,3 @@
 The source code will be made available upon the publication of the paper.
 ## 
 The purpose of multi-modal image fusion is to integrate the advantages of different modal images to obtain fused images that satisfy human or machine perception tasks. However, most methods rely on hard fusion rules, which tend to perform poorly in the face of new data, generalize poorly, and fail to learn the needed more general and robust feature representations. Therefore, we designed a two-stage multi-modal image fusion method based on wavelet transform decoupled cross-modal translation and contrastive regularization. Specifically, in the first stage, different modalities are decoupled into high-frequency and low-frequency parts by wavelet transform, respectively, and the enhanced features are obtained by the corresponding enhancement blocks, and then their low-frequency parts are exchanged to obtain the corresponding pseudo-modal images. Then the positive and negative samples are constructed, and the cross-modal translation constraints are carried out using the idea of contrastive learning to realize the inter-modal interactive learning. In the second stage, the wavelet decoupled high and low frequency features of different modal images are modulated and fused respectively. Through extensive experimental validation, our method achieves state-of-the-art fusion performance with strong generalization on multiple datasets, and achieves state-of-the-art performance on downstream tasks including object detection and semantic segmentation. The code is available at https://github.com/Song-YS/WDFusion.
-
-<img src="image//I.png" width="90%" align=center />
-
-<img src="image//IVF1.png" width="90%" align=center />
-
-<img src="image//IVF1.png" width="90%" align=center />
